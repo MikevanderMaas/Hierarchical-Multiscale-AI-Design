@@ -1,12 +1,6 @@
 #include "h_MultiScaleManager.h"
 #include "h_MultiScale.h"
-#include "../../Empire.h"
-#include "../../MapNode.h"
-#include "../../Unit.h"
 
-#ifdef GOAPAlgorithm
-#include "../../GOAP/GOAPAgentState.h"
-#endif // GOAPAlgorithm
 
 Hierarchical::h_MultiScaleManager::h_MultiScaleManager(h_MultiScale* a_algorithm)
 {
