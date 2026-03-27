@@ -8,11 +8,11 @@ namespace Hierarchical {
 
 	enum class h_ManagerType
 	{
-		eMT_Combat,
-		eMT_Expansion,
-		eMT_Vision,
-		eMT_Resources,
-		eMT_Research
+		hMT_Combat,
+		hMT_Expansion,
+		hMT_Vision,
+		hMT_Resources,
+		hMT_Research
 	};
 
 	class h_MultiScaleManager
