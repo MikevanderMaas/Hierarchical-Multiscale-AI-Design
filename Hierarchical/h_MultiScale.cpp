@@ -6,10 +6,10 @@ Hierarchical::h_MultiScale::h_MultiScale()
 	m_planner = new h_MultiScalePlanner();
 	m_planner->Init(a_ActionSet);
 
-	m_managers.emplace(h_ManagerType::eMT_Combat, new h_CombatManager(this));
-	m_managers.emplace(h_ManagerType::eMT_Expansion, new h_ExpansionManager(this));
-	m_managers.emplace(h_ManagerType::eMT_Research, new h_ResearchManager(this));
-	m_managers.emplace(h_ManagerType::eMT_Resources, new h_ResourceManager(this));
+	m_managers.emplace(h_ManagerType::hMT_Combat, new h_CombatManager(this));
+	m_managers.emplace(h_ManagerType::hMT_Expansion, new h_ExpansionManager(this));
+	m_managers.emplace(h_ManagerType::hMT_Research, new h_ResearchManager(this));
+	m_managers.emplace(h_ManagerType::hMT_Resources, new h_ResourceManager(this));
 
 }
 
